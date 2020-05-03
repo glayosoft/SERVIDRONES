@@ -1,0 +1,167 @@
+body {font: 20px arial;
+padding: 0;
+margin: 0;
+background-color: #f4f4f4;}
+
+/* estilos globales */
+.contenedor{ 
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.boton1{
+    height: 38px;
+    background-color: orangered;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+/* encabezado */
+header{
+    background-color: #24282b;
+    color: white;
+    padding-top: 3opx;
+    min-height: 70px;
+    border-bottom: 10px solid #1293d4;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #marca{
+    float: left;
+}
+
+header #marca h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+
+header .resaltado, header .actual a{
+    color: #1293d4;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* cabecera con imagen */
+#cabecera{
+    min-height: 400px;
+    background: url("img/fondo4.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: black;
+    }
+
+#cabecera h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#cabecera p{
+    font-size: 25px;
+}
+
+/* formulario boletin */
+#boletin{
+    padding: 15px;
+    color: #f4f4f4;
+    background: #24282b;
+}
+
+#boletin h1{
+    float: left;
+}
+
+#boletin form{
+    float: right;
+    margin-top: 15px;
+}
+
+#boletin input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* cajas */
+#cajas{
+    margin-top: 20px;
+}
+
+#cajas .caja{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#cajas .caja img{
+    width: 200px;
+}
+
+.oscuro{
+    padding: 15px;
+    background-color: #24282b;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* main-col */
+article#main-col{
+    margin-top: 20px;
+    float: left;
+    width: 70%;
+}
+
+/* Servicios */
+ul#servicios li{
+    list-style: none;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+/* cabecera con imagen */
+#cabecera img{
+    min-height: 400px;
+    background: url("img/fondo4.jpg") no-repeat 0 -400px;
+}
+
+/* footer */
+footer{
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color: #1293d4;
+    text-align: center;
+}
